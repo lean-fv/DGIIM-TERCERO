@@ -1,0 +1,29 @@
+
+
+MPI_Send(*buffer, longitud, tipo_dato, destino, etiqueta, comunicador) (es asíncrono pero seguro)
+MPI_Get_count(*estado,tipo_dato,*numero), donde número indica el numero de items enviados/recibidos por estado.MPI_SOURCE.
+--------------------------------------------------------------------------------------------------------------------------------
+
+- Síncronas:
+MPI_Ssend(*buffer, longitud, tipo_dato, destino, etiqueta, comunicador)
+MPI_Recv(*buffer, longitud, tipo_dato, origen, etiqueta, comunicador,*estado)
+--------------------------------------------------------------------------------------------------------------------------------
+
+- Sondeo:
+MPI_Iprobe(origen,etiqueta,comunicador,*bandera,*estado), donde bandera>0 indica si hay algún mensaje al proceso llamador.
+MPI_Probe(origen,etiqueta,comunicador,*estado), el proceso llamador queda bloqueado hasta que haya algún mensaje para él.
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+- No seguras:
+
+MPI_Isend(*buffer, longitud, tipo_dato, destino, etiqueta, comunicador,*ticket)
+MPI_Irecv(*buffer, longitud, tipo_dato, origen, etiqueta, comunicador,*estado,*ticket),
+donde MPI_Request ticket permite identificar la operación cuyo estado se quiere consultar o se espera que finalice.
+
+MPI_Request_free(*ticket) libera la memoria usada por variable MPI_Request.
+MPI_Test(*ticket,*bandera,*estado), donde bandera>0 indica si la operación que escribe en ticket ha terminado.
+MPI_Wait(*ticket,*estado), el proceso llamador espera bloqueado hasta que termine operación.
+
+
+

@@ -1,0 +1,3 @@
+
+
+Modificar el fichero prodcons2_mu.cpp (productores-consumidores múltiples) de forma que haya un productor y 4 consumidores. Los consumidores pares deben consumir los datos pares, mientras que los consumidores impares los valores impares.

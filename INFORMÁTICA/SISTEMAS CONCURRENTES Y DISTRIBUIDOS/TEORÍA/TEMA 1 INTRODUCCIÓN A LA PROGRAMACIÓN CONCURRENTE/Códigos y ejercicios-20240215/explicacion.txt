@@ -1,0 +1,17 @@
+Programación con GPU: fuente de los programas de demostración mostrados en clase:
+
+-vectors1.cu (1 bloque, 1 hebra)
+
+-vectors2.cu ( 1 bloque, 256 hebras/bloque)
+
+-vectors3.cu (4096 bloques, 256 hebras/bloque)
+
+Instalar CUDA Toolkit.
+
+Para compilar: nvcc vectors3.cu -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64" --machine 64 -o add_vectorsx.exe
+
+Para averiguar cuánto tiempo tarda en ejecutarse el kernel add << <1, 256 >> > (N, x, y), se puede ejecutar con nvprof (el 'profiler' de GPU de línea de comandos que viene con el CUDA Toolkit)  escribiendo en CMD: nvprof add_vectorsx.exe
+
+Si diera error la ejecución de nvprof, podría ser que nolo encontrase ene el path. Incluir en la variable de entorno %path% ($path en Linux) lo siguiente: 
+
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\extras\CUPTI\lib64
