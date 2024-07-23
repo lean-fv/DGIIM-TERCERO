@@ -1,0 +1,8 @@
+
+wheel_group: wheel
+admin_user: admin
+admin_home: "/home/{{ admin_user }}"
+wheel_users:
+  - server1
+  - server2
+    

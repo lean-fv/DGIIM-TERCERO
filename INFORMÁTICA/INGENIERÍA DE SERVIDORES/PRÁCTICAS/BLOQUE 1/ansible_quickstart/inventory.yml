@@ -1,0 +1,31 @@
+---
+myhosts:
+    hosts:
+        server1:
+            ansible_host: 192.168.56.114
+            ansible_user: leandrofdez
+            ansible_password: 123456
+            ansible_become_user: root
+            ansible_become_password: 123456
+
+
+        server2: 
+            ansible_host: 192.168.56.115
+            ansible_user: leandrofdez
+            ansible_password: 123456
+            ansible_become_user: root
+            ansible_become_password: 123456
+
+webservers:
+    hosts:
+        apache:
+            ansible_host: 192.168.56.114
+            ansible_user: admin
+
+        nginx:
+            ansible_host: 192.168.56.115
+            ansible_user: admin
+
+
+
+...

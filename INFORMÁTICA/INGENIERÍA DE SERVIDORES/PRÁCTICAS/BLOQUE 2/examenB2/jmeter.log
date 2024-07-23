@@ -1,0 +1,62 @@
+2024-05-16 21:08:25,675 INFO o.a.j.u.JMeterUtils: Setting Locale to es_ES
+2024-05-16 21:08:25,697 INFO o.a.j.u.JMeterUtils: Could not find resources for 'es_ES', using 'es'
+2024-05-16 21:08:25,697 INFO o.a.j.JMeter: Loading user properties from: /home/leandrofdez/Aplicaciones/apache-jmeter-5.6.3/bin/user.properties
+2024-05-16 21:08:25,698 INFO o.a.j.JMeter: Loading system properties from: /home/leandrofdez/Aplicaciones/apache-jmeter-5.6.3/bin/system.properties
+2024-05-16 21:08:25,702 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2024-05-16 21:08:25,703 INFO o.a.j.JMeter: Version 5.6.3
+2024-05-16 21:08:25,703 INFO o.a.j.JMeter: java.version=11.0.22
+2024-05-16 21:08:25,703 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2024-05-16 21:08:25,703 INFO o.a.j.JMeter: os.name=Linux
+2024-05-16 21:08:25,703 INFO o.a.j.JMeter: os.arch=amd64
+2024-05-16 21:08:25,703 INFO o.a.j.JMeter: os.version=6.5.0-28-generic
+2024-05-16 21:08:25,703 INFO o.a.j.JMeter: file.encoding=UTF-8
+2024-05-16 21:08:25,703 INFO o.a.j.JMeter: java.awt.headless=null
+2024-05-16 21:08:25,703 INFO o.a.j.JMeter: Max memory     =4129292288
+2024-05-16 21:08:25,703 INFO o.a.j.JMeter: Available Processors =8
+2024-05-16 21:08:25,710 INFO o.a.j.JMeter: Default Locale=español (España)
+2024-05-16 21:08:25,710 INFO o.a.j.JMeter: JMeter  Locale=español (España)
+2024-05-16 21:08:25,710 INFO o.a.j.JMeter: JMeterHome=/home/leandrofdez/Aplicaciones/apache-jmeter-5.6.3
+2024-05-16 21:08:25,711 INFO o.a.j.JMeter: user.dir  =/home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/3/ISE/examenB2
+2024-05-16 21:08:25,711 INFO o.a.j.JMeter: PWD       =/home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/3/ISE/examenB2
+2024-05-16 21:08:25,711 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: leandrofdez-HP-ENVY-Laptop-14-eb0xxx FullName: leandrofdez-HP-ENVY-Laptop-14-eb0xxx
+2024-05-16 21:08:25,722 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2024-05-16 21:08:25,877 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2024-05-16 21:08:46,525 INFO o.a.j.s.FileServer: Default base='/home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/3/ISE/examenB2'
+2024-05-16 21:08:46,527 INFO o.a.j.g.a.Load: Loading file: /home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/3/ISE/examenB2/examenB2.jmx
+2024-05-16 21:08:46,527 INFO o.a.j.s.FileServer: Set new base='/home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/3/ISE/examenB2'
+2024-05-16 21:08:46,663 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-05-16 21:08:46,677 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-05-16 21:08:46,679 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-05-16 21:08:46,680 INFO o.a.j.s.SaveService: Loading file: /home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/3/ISE/examenB2/examenB2.jmx
+2024-05-16 21:08:46,702 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-05-16 21:08:46,702 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-05-16 21:08:46,702 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-05-16 21:08:46,702 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-05-16 21:08:46,702 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-05-16 21:08:46,702 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-05-16 21:08:46,922 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-05-16 21:08:46,922 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2024-05-16 21:08:46,923 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-05-16 21:08:46,923 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-05-16 21:08:47,036 INFO o.a.j.s.FileServer: Set new base='/home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/3/ISE/examenB2'
+2024-05-16 21:08:49,174 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-05-16 21:08:49,176 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-05-16 21:08:49,176 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-05-16 21:08:49,177 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2024-05-16 21:08:49,177 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2024-05-16 21:08:49,311 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-05-16 21:08:49,343 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Administradores
+2024-05-16 21:08:49,343 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Administradores.
+2024-05-16 21:08:49,344 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-05-16 21:08:49,344 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-05-16 21:08:49,347 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-05-16 21:08:49,347 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-05-16 21:08:49,349 INFO o.a.j.t.JMeterThread: Thread started: Administradores 1-1
+2024-05-16 21:08:49,350 INFO o.a.j.s.FileServer: Stored: ./alumnos.csv
+2024-05-16 21:08:49,366 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = leandrofdez-HP-ENVY-Laptop-14-eb0xxx
+2024-05-16 21:08:49,369 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2024-05-16 21:08:49,434 INFO o.a.j.t.JMeterThread: Thread is done: Administradores 1-1
+2024-05-16 21:08:49,434 INFO o.a.j.t.JMeterThread: Thread finished: Administradores 1-1
+2024-05-16 21:08:49,435 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-05-16 21:08:49,435 INFO o.a.j.s.FileServer: Close: ./alumnos.csv
+2024-05-16 21:08:49,437 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)

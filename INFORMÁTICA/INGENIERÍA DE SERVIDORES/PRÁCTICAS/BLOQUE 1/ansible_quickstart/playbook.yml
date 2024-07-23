@@ -1,0 +1,70 @@
+---
+- name: Ejercicio 5.1, configuracion de servidores con Ansible
+  
+  hosts: myhosts
+  become: yes
+  
+  vars_files:
+    - ./vars.yaml
+    
+  tasks:
+
+
+    - name: Crear usuario admin
+      user:
+        name: "{{ admin_user }}"
+        shell: /bin/bash
+        home: "{{ admin_home }}"
+        createhome: yes
+      
+
+    - name: Permitir al usuario admin ejecutar comandos sin contraseña.
+      lineinfile:
+        path: /etc/sudoers
+        line: "{{ admin_user }} ALL=(ALL) NOPASSWD: ALL"
+        state: present
+
+
+    - name: Dar acceso por SSH al usuario admin con llave pública.
+      authorized_key:
+        user: "{{ admin_user }}"
+        key: "{{ lookup('file', './llaves/id_rsa.pub') }}"
+        state: present
+
+
+    - name: Crear grupo wheel si no existe.
+      group:
+        name: "{{ wheel_group }}"
+        state: present
+
+    - name: Permitir a sus miembros ejecutar sudo.
+      lineinfile:
+        path: /etc/sudoers
+        line: "%wheel ALL=(ALL) ALL"
+        state: present
+
+    - name: Añadir una lista de usuarios, añadiéndolos al grupo wheel.
+      user:
+        name: "{{ item }}"
+        groups: "{{ wheel_group }}"
+        append: yes
+      loop: "{{ wheel_users }}"
+        
+    - name: Darles acceso por SSH con clave pública.
+      authorized_key:
+        user: "{{ item }}"
+        key: "{{ lookup('file', './llaves/id_rsa.pub') }}"
+        state: present
+      loop: "{{ wheel_users }}"
+
+
+    - name: Deshabilitar el acceso por contraseña sobre SSH para el usuario root.
+      lineinfile:
+        path: /etc/ssh/sshd_config
+        line: "PermitRootLogin no"
+        state: present
+      
+    - name: Reiniciar sshd
+      service: 
+        name: sshd
+        state: restarted

@@ -1,0 +1,42 @@
+2024-05-17 00:33:01,592 INFO o.a.j.u.JMeterUtils: Setting Locale to es_ES
+2024-05-17 00:33:01,613 INFO o.a.j.u.JMeterUtils: Could not find resources for 'es_ES', using 'es'
+2024-05-17 00:33:01,614 INFO o.a.j.JMeter: Loading user properties from: /home/leandrofdez/Aplicaciones/apache-jmeter-5.6.3/bin/user.properties
+2024-05-17 00:33:01,614 INFO o.a.j.JMeter: Loading system properties from: /home/leandrofdez/Aplicaciones/apache-jmeter-5.6.3/bin/system.properties
+2024-05-17 00:33:01,618 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2024-05-17 00:33:01,618 INFO o.a.j.JMeter: Version 5.6.3
+2024-05-17 00:33:01,618 INFO o.a.j.JMeter: java.version=11.0.22
+2024-05-17 00:33:01,618 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2024-05-17 00:33:01,618 INFO o.a.j.JMeter: os.name=Linux
+2024-05-17 00:33:01,618 INFO o.a.j.JMeter: os.arch=amd64
+2024-05-17 00:33:01,618 INFO o.a.j.JMeter: os.version=6.5.0-28-generic
+2024-05-17 00:33:01,618 INFO o.a.j.JMeter: file.encoding=UTF-8
+2024-05-17 00:33:01,618 INFO o.a.j.JMeter: java.awt.headless=null
+2024-05-17 00:33:01,618 INFO o.a.j.JMeter: Max memory     =4129292288
+2024-05-17 00:33:01,619 INFO o.a.j.JMeter: Available Processors =8
+2024-05-17 00:33:01,624 INFO o.a.j.JMeter: Default Locale=español (España)
+2024-05-17 00:33:01,625 INFO o.a.j.JMeter: JMeter  Locale=español (España)
+2024-05-17 00:33:01,625 INFO o.a.j.JMeter: JMeterHome=/home/leandrofdez/Aplicaciones/apache-jmeter-5.6.3
+2024-05-17 00:33:01,625 INFO o.a.j.JMeter: user.dir  =/home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/3/ISE/leandroFernandezJMeter
+2024-05-17 00:33:01,625 INFO o.a.j.JMeter: PWD       =/home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/3/ISE/leandroFernandezJMeter
+2024-05-17 00:33:01,625 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: leandrofdez-HP-ENVY-Laptop-14-eb0xxx FullName: leandrofdez-HP-ENVY-Laptop-14-eb0xxx
+2024-05-17 00:33:01,637 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2024-05-17 00:33:02,834 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2024-05-17 00:33:09,983 INFO o.a.j.s.FileServer: Default base='/home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/3/ISE/leandroFernandezJMeter'
+2024-05-17 00:33:09,985 INFO o.a.j.g.a.Load: Loading file: /home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/3/ISE/leandroFernandezJMeter/Ej_3_3.jmx
+2024-05-17 00:33:09,985 INFO o.a.j.s.FileServer: Set new base='/home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/3/ISE/leandroFernandezJMeter'
+2024-05-17 00:33:10,111 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-05-17 00:33:10,126 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-05-17 00:33:10,127 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-05-17 00:33:10,129 INFO o.a.j.s.SaveService: Loading file: /home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/3/ISE/leandroFernandezJMeter/Ej_3_3.jmx
+2024-05-17 00:33:10,162 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-05-17 00:33:10,162 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-05-17 00:33:10,162 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-05-17 00:33:10,162 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-05-17 00:33:10,162 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-05-17 00:33:10,162 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-05-17 00:33:10,170 INFO o.a.j.p.h.s.HTTPJavaImpl: Maximum connection retries = 0
+2024-05-17 00:33:10,218 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-05-17 00:33:10,218 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2024-05-17 00:33:10,219 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-05-17 00:33:10,219 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-05-17 00:33:10,533 INFO o.a.j.s.FileServer: Set new base='/home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/3/ISE/leandroFernandezJMeter'
